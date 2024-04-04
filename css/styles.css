@@ -430,18 +430,21 @@ img {
   background-color: #31d0aa;
 }
 .footer-form-wrapper {
-}
-.footer-form {
   margin-left: 80px;
 }
-.footer-form-label {
-  display: block;
+.footer-form {
+  display: flex;
+}
+.footer-form-descr {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+}
+.footer-form-label {
+  /* display: block; */
 }
 .footer-input-wrapper {
   display: flex;
@@ -606,7 +609,7 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #8e8f99;
+  color: rgba(46, 47, 66, 0.4);
   background-color: transparent;
   padding: 8px 16px;
   outline: transparent;
