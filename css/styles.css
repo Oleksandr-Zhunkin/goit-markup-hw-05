@@ -434,6 +434,7 @@ img {
 }
 .footer-form {
   display: flex;
+  gap: 24px;
 }
 .footer-form-descr {
   font-weight: 500;
@@ -444,7 +445,6 @@ img {
   margin-bottom: 16px;
 }
 .footer-form-label {
-  /* display: block; */
 }
 .footer-input-wrapper {
   display: flex;
