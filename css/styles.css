@@ -570,8 +570,6 @@ img {
 .modal-form {
 }
 .modal-field {
-  width: 100%;
-  height: 58px;
   margin-bottom: 8px;
 }
 .modal-label {
@@ -633,21 +631,20 @@ img {
 .modal-comment:focus {
   border-color: #4d5ae5;
 }
-.modal-comment-box > .modal-comment::placeholder {
+.modal-comment::placeholder {
   color: rgba(46, 47, 66, 0.4);
 }
 .agreement-wrapper {
   margin-bottom: 24px;
 }
 .agreement {
-  display: flex;
-  align-items: center;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
 .agreement-checkbox {
+  cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
