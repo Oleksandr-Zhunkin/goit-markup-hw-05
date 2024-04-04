@@ -452,7 +452,7 @@ img {
 }
 .footer-form-input {
   display: inline-block;
-  padding: 8px 19px;
+  padding-left: 16px;
   border: 1px solid #fff;
   border-radius: 4px;
   width: 264px;
@@ -474,8 +474,9 @@ img {
 }
 .footer-btn {
   display: flex;
+  justify-content: center;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
